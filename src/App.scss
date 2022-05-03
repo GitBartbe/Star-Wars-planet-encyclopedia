@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+html {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  display: flex;  
+  flex-direction: column;
+  margin: auto;
+  margin-top: 96px;
+  background-color: #E0E6EE;;
+  width: 790px;
+  border-radius: 8px;
+ align-items: center;
+ font-family: 'Barlow';
+
+}
+
+
+
+.logo-container {
+  margin: 40px 0 40px ;
+}
+
+
+@media (max-width: 600px) {
+  .App {
+      width:343px;
+      .logo {
+        width: 222px;
+      }
+  }}

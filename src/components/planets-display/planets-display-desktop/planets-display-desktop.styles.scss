@@ -1,0 +1,36 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 96px 62px 62px 96px 96px 62px 96px ;
+    column-gap: 22px;
+    margin-bottom: 10px;
+    
+  }
+  .planet-dekstop-container {
+    padding-bottom: 5px;
+  }
+
+  .categories {
+    z-index: 1;
+    margin-bottom: 15px;
+    height: 20px;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 15px;
+
+    .category-container {
+      display: flex;
+      align-items: center;
+     
+    }
+
+   
+
+    #name {
+      color: #00687f;
+    }
+    #description {
+      text-align: right;
+      color: #474747;
+      margin-left: auto;
+    }
+  }

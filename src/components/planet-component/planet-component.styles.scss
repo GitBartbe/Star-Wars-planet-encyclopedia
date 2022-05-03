@@ -1,0 +1,16 @@
+@import "../../scss/_variables.scss";
+.planet-component {
+    padding: 5px 15px;
+    font-family: 'Barlow';
+    .planet-title {
+
+        color: $primary-color;
+    }
+    .planet-item {
+        margin-left: auto;
+        margin-right: 20px;
+        text-align: right;
+        justify-content: end;
+        color: $secondary-color;
+    }
+}

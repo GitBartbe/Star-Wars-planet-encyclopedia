@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import data from "./components/data.json";
+import FilmComponent from "./components/film-component/film-component";
+import {ReactComponent as Logo} from './assets/LOGO.svg'
+
 
 function App() {
+  const filmData = data.data;
+  const { films, planets } = filmData;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="logo-container" ><Logo className="logo" /></div>
+      
+      {
+        films.map((film,idx) => (
+          <FilmComponent key={idx} filmTitle = {film.title} filmId = {film.id} planets={planets} />
+        ) )
+      }
+   
     </div>
   );
 }

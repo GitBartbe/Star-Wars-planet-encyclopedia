@@ -1,0 +1,11 @@
+.film-container {
+    width: 730px;
+    margin: auto;
+    
+}
+
+@media (max-width: 600px) {
+    .film-container {
+        width: 302px;
+        
+    }}

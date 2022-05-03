@@ -1,0 +1,27 @@
+@import "../../scss/_variables.scss";
+
+.sorting-arrows {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 20px;
+  margin-left: 5px;
+  justify-content: center;  
+  cursor: pointer;
+
+  
+}
+
+.not-active {
+  fill: #474747;
+}
+
+
+.up-active {
+   fill:$primary-color;
+}
+
+.down-active {
+    fill: $primary-color;
+}
+
