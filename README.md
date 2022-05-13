@@ -22,6 +22,7 @@ documentation and implemet reqiurements to the app.
 
 
 #  Preview
- ![StarWarsEn](https://user-images.githubusercontent.com/78264646/168216439-b225e6e9-fd99-4dec-8a99-77cee13e667c.PNG)             ![starwars-mobile](https://user-images.githubusercontent.com/78264646/168215756-85860a9b-08a0-4ef8-9108-7a256e678478.PNG)
+ ![StarWarsEn](https://user-images.githubusercontent.com/78264646/168216439-b225e6e9-fd99-4dec-8a99-77cee13e667c.PNG)      ![small](https://user-images.githubusercontent.com/78264646/168216615-c57f1fd4-9d11-4b10-a69d-ce190a9c262d.png)
+
 
 
