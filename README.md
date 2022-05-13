@@ -18,6 +18,8 @@ documentation and implemet reqiurements to the app.
 2. Mach film title with planets 
 3. Display  result in colapsible element
 4. Sort content by types asscendig and descending!
-5. 
-6. 
-7. ![StarWarsEn](https://user-images.githubusercontent.com/78264646/168215305-03950503-cf00-4105-ad22-f7697b31be9f.PNG)
+
+
+#  Preview
+
+![StarWarsEn](https://user-images.githubusercontent.com/78264646/168215305-03950503-cf00-4105-ad22-f7697b31be9f.PNG)
